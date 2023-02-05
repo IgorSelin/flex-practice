@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
+  background-color: rgb(154, 174, 191);
+  font-family: Kanit;
+}
+
+.container .header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container .header img {
+  width: 30px;
+}
+
+.firstBlock {
+  height: 570px;
+  background-color: blue;
+  display: flex;
+}
+
+.firstBlock .withMan {
+  width: 50%;
+  background-color: coral;
+}
+
+.firstBlock .darkBlock {
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 100px;
+}
+
+.firstBlock .darkBlock .topContainer {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.container .date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 7px;
+}
+
+.firstBlock .darkBlock .description {
+  margin-top: 66px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.firstBlock .darkBlock .title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.firstBlock .darkBlock .btn {
+  padding: 7px 30px;
+  border: 1px solid #fff;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.featuredBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 59px;
+}
+
+.featuredBlock img {
+  max-width: 557px;
+  max-height: 400px;
+}
+
+.featuredBlock .posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.featuredBlock .posts .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1f1f1d;
+  margin-bottom: 30px;
+}
+
+.featuredBlock .firstMan {
+  max-width: 557px;
+}
+
+.featuredBlock .secondMan {
+  margin-top: 53px;
+  max-width: 557px;
+}
+
+.featuredBlock .date {
+  margin-top: 20px;
+}
